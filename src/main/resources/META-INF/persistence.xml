@@ -7,7 +7,7 @@
 
     <persistence-unit name="NewPersistenceUnit" transaction-type="JTA">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <jta-data-source>java:jboss/datasources/workers_info_db</jta-data-source>
+        <!--<jta-data-source>java:jboss/datasources/workers_info_db</jta-data-source>-->
         <class>com.grigor.avetisyan.server.entity.DeviceID</class>
         <class>com.grigor.avetisyan.server.entity.Location</class>
 
